@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchstick Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Matchstick Game</h1>
+
+        <div id="game-info" class="game-info">
+            <p id="pile-info">Matchsticks left: 50</p>
+            <p id="player-info">Player 1 turn</p>
+        </div>
+
+        <form id="game-form" class="game-form">
+            <input type="number" id="number-to-remove" min="1" max="6" class="input-field" placeholder="Enter number of matchsticks (1-6)" required>
+            <button type="submit" class="submit-button">Remove Matchsticks</button>
+        </form>
+
+        <p id="result-message" class="result-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
